@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual environment
+nfstream_env/
+venv/
+.env
+
+# Datasets
+TRAINING_DATA/
+BALANCED_ATTACKS/
+MASTER_FINE_GRAINED.csv
+
+
+# Jupyter
+.ipynb_checkpoints/
