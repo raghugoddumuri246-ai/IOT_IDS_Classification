@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual environment
+nfstream_env/
+venv/
+.env
+
+# Large datasets
+TRAINING_DATA/
+*.csv
+
+# Jupyter
+.ipynb_checkpoints/
