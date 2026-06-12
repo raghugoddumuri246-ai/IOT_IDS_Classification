@@ -11,7 +11,10 @@ venv/
 TRAINING_DATA/
 BALANCED_ATTACKS/
 MASTER_FINE_GRAINED.csv
+NFSTREAM_CSV/
 
+#test 
+Test_Pcap
 
 # Jupyter
 .ipynb_checkpoints/

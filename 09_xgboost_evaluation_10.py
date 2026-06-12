@@ -1,180 +1,140 @@
-# evaluate_final_ids_v4.py
+"""
+==========================================================
+SCRIPT 10 : QUICK METRICS SUMMARY (FINE-GRAINED, 14-CLASS)
+==========================================================
+
+PURPOSE:
+A short script that loads the trained model and prints
+the four headline numbers — Accuracy, Precision, Recall,
+F1 — plus the full classification report and raw confusion
+matrix, on the VALIDATION set.
+
+This is useful as a quick "is the model still working"
+sanity check after re-running training (08_*.py), without
+needing to re-read the full training log.
+
+DIFFERENCE FROM 08_xgboost_model_creation.py:
+08_*.py prints these metrics ONCE, right after training,
+and also evaluates on the TEST set. This script is a
+standalone re-evaluation tool you can run anytime against
+the saved xgb_model.pkl without retraining.
+
+DIFFERENCE FROM 09_xgboost_evaluation_10.py:
+09_*.py collapses Mirai/Recon subtypes into coarse classes
+(10-class view). This script shows the full 14-class
+("fine-grained") view.
+==========================================================
+"""
 
 import pandas as pd
 import joblib
 
 from sklearn.metrics import (
     accuracy_score,
+    precision_score,
+    recall_score,
+    f1_score,
     classification_report,
     confusion_matrix
 )
 
-# =====================================================
+# ----------------------------------------------------------
 # LOAD VALIDATION DATA
-# =====================================================
+# ----------------------------------------------------------
 
-print("Loading Validation Dataset...")
+print("Loading validation dataset...")
 
-val_df = pd.read_csv(
-    "TRAINING_DATA/val.csv"
-)
+df = pd.read_csv("TRAINING_DATA/val.csv")
 
-X_val = val_df.drop(
-    "label",
-    axis=1
-)
+X      = df.drop("label", axis=1)
+y_true = df["label"]
 
-y_true = val_df["label"]
+# ----------------------------------------------------------
+# LOAD MODEL + CLASS NAMES
+# ----------------------------------------------------------
 
-# =====================================================
-# LOAD XGBOOST V4 MODEL
-# =====================================================
+print("Loading XGBoost model...")
 
-print("Loading Model...")
+model = joblib.load("xgb_model.pkl")
+le    = joblib.load("TRAINING_DATA/label_encoder.pkl")
 
-model = joblib.load(
-    "xgb_model.pkl"
-)
+# Force CPU — consistent with 09_*.py and 12_*.py, avoids
+# GPU memory issues on machines with limited free VRAM.
+model.get_booster().set_param({"device": "cpu"})
 
-# =====================================================
-# PREDICTIONS
-# =====================================================
+class_names = list(le.classes_)
+
+# ----------------------------------------------------------
+# PREDICT
+# ----------------------------------------------------------
 
 print("Predicting...")
 
-y_pred = model.predict(X_val)
+y_pred = model.predict(X)
 
-# =====================================================
-# LABEL MAP
-# =====================================================
+# ----------------------------------------------------------
+# HEADLINE METRICS
+#
+# average="weighted" : each class's score is weighted by
+# how many samples it has. Since all 14 classes have
+# exactly 9,000 validation samples (balanced dataset),
+# "weighted" and "macro" averages will be nearly identical
+# here — but "weighted" is used for consistency with
+# sklearn's default reporting style.
+# ----------------------------------------------------------
 
-label_map = {
-    0: "Benign",
+accuracy  = accuracy_score(y_true, y_pred)
+precision = precision_score(y_true, y_pred, average="weighted")
+recall    = recall_score(y_true, y_pred, average="weighted")
+f1        = f1_score(y_true, y_pred, average="weighted")
 
-    1: "DDoS-ICMP",
-    2: "DDoS-SYN",
-    3: "DDoS-TCP",
-    4: "DDoS-UDP",
+print("\n" + "=" * 60)
+print("XGBOOST MODEL METRICS (14-CLASS, FINE-GRAINED)")
+print("=" * 60)
 
-    5: "DoS-SYN",
-    6: "DoS-TCP",
-    7: "DoS-UDP",
+print(f"\n  Accuracy  : {accuracy:.4f}")
+print(f"  Precision : {precision:.4f}")
+print(f"  Recall    : {recall:.4f}")
+print(f"  F1 Score  : {f1:.4f}")
 
-    8: "Mirai-greeth",
-    9: "Mirai-greip",
-    10: "Mirai-udpplain",
+# ----------------------------------------------------------
+# FULL CLASSIFICATION REPORT
+#
+# target_names=class_names makes the report show actual
+# attack names (e.g. "DDoS-ICMP_Flood") instead of just
+# numeric indices (0-13) — much easier to read and explain.
+# ----------------------------------------------------------
 
-    11: "Recon-HostDiscovery",
-    12: "Recon-OSScan",
-    13: "Recon-PortScan"
-}
+print("\n" + "=" * 60)
+print("PER-CLASS CLASSIFICATION REPORT")
+print("=" * 60)
 
-# =====================================================
-# COLLAPSE LABELS
-# =====================================================
-
-def collapse(label_id):
-
-    name = label_map[int(label_id)]
-
-    if name.startswith("Mirai"):
-        return "Mirai"
-
-    if name.startswith("Recon"):
-        return "Recon"
-
-    return name
-
-# =====================================================
-# CONVERT TRUE LABELS
-# =====================================================
-
-y_true_final = [
-    collapse(x)
-    for x in y_true
-]
-
-# =====================================================
-# CONVERT PREDICTIONS
-# =====================================================
-
-y_pred_final = [
-    collapse(x)
-    for x in y_pred
-]
-
-# =====================================================
-# ACCURACY
-# =====================================================
-
-acc = accuracy_score(
-    y_true_final,
-    y_pred_final
-)
-
-print("\n")
-print("="*60)
-print("FINAL IDS ACCURACY")
-print("="*60)
-
-print(acc)
-
-# =====================================================
-# REPORT
-# =====================================================
-
-report = classification_report(
-    y_true_final,
-    y_pred_final,
+print(classification_report(
+    y_true, y_pred,
+    target_names=class_names,
     digits=4
-)
+))
 
-print("\n")
-print("="*60)
-print("FINAL IDS REPORT")
-print("="*60)
+# ----------------------------------------------------------
+# RAW CONFUSION MATRIX (14x14, numeric)
+#
+# Rows = true class, Columns = predicted class.
+# Diagonal values = correct predictions.
+# Off-diagonal values = confusions between classes.
+#
+# For a labeled version, see xgb_confusion_matrix.csv
+# (saved by 08_xgboost_model_creation.py with class
+# names as row/column headers).
+# ----------------------------------------------------------
 
-print(report)
+cm = confusion_matrix(y_true, y_pred)
 
-
-# =====================================================
-# CONFUSION MATRIX
-# =====================================================
-
-labels = [
-    "Benign",
-    "DDoS-ICMP",
-    "DDoS-SYN",
-    "DDoS-TCP",
-    "DDoS-UDP",
-    "DoS-SYN",
-    "DoS-TCP",
-    "DoS-UDP",
-    "Mirai",
-    "Recon"
-]
-
-pd.set_option("display.max_rows", None)
-pd.set_option("display.max_columns", None)
-pd.set_option("display.width", None)
-
-cm = confusion_matrix(
-    y_true_final,
-    y_pred_final,
-    labels=labels
-)
-
-cm_df = pd.DataFrame(
-    cm,
-    index=labels,
-    columns=labels
-)
-
-print("\n")
+print("\n" + "=" * 60)
+print("CONFUSION MATRIX (numeric, 0-13 = class index)")
 print("=" * 60)
-print("CONFUSION MATRIX")
-print("=" * 60)
+print(cm)
 
-print(cm_df)
-
-
+print("\nShape:", cm.shape)
+print("\nClass index reference:")
+for i, name in enumerate(class_names):
+    print(f"  {i:>2} = {name}")
