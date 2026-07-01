@@ -1,0 +1,32 @@
+Test Accuracy: 0.8604
+
+                         precision    recall  f1-score   support
+
+           Benign_Final     0.5980    0.9132    0.7227      9000
+ DDoS-ACK_Fragmentation     1.0000    0.9999    0.9999      9000
+        DDoS-HTTP_Flood     1.0000    1.0000    1.0000      9000
+        DDoS-ICMP_Flood     0.4892    0.5764    0.5292      9000
+DDoS-ICMP_Fragmentation     0.9999    1.0000    0.9999      9000
+      DDoS-PSHACK_Flood     1.0000    0.9956    0.9978      9000
+       DDoS-RSTFINFlood     1.0000    0.9952    0.9976      9000
+         DDoS-SYN_Flood     1.0000    0.9910    0.9955      9000
+         DDoS-SlowLoris     1.0000    1.0000    1.0000      9000
+DDoS-SynonymousIP_Flood     0.9989    0.9741    0.9863      9000
+         DDoS-TCP_Flood     0.9989    0.9749    0.9867      9000
+         DDoS-UDP_Flood     0.9261    0.7087    0.8029      9000
+ DDoS-UDP_Fragmentation     0.9999    1.0000    0.9999      9000
+         DoS-HTTP_Flood     0.9672    0.8413    0.8999      9000
+          DoS-SYN_Flood     0.9971    0.9487    0.9723      9000
+          DoS-TCP_Flood     0.9768    0.9698    0.9733      9000
+          DoS-UDP_Flood     0.9830    0.9044    0.9421      9000
+     Mirai-greeth_flood     0.6649    0.4844    0.5605      9000
+      Mirai-greip_flood     0.5438    0.5687    0.5559      9000
+         Mirai-udpplain     0.4287    0.5701    0.4894      9000
+    Recon-HostDiscovery     0.9611    0.8976    0.9282      9000
+           Recon-OSScan     0.7580    0.6209    0.6826      9000
+         Recon-PortScan     0.7110    0.7142    0.7126      9000
+      VulnerabilityScan     1.0000    1.0000    1.0000      9000
+
+               accuracy                         0.8604    216000
+              macro avg     0.8751    0.8604    0.8640    216000
+           weighted avg     0.8751    0.8604    0.8640    216000

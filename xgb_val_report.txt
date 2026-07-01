@@ -1,22 +1,32 @@
-Validation Accuracy: 0.7565
+Validation Accuracy: 0.9011
 
-                     precision    recall  f1-score   support
+                         precision    recall  f1-score   support
 
-       Benign_Final     0.5979    0.8533    0.7032      9000
-    DDoS-ICMP_Flood     0.5366    0.6502    0.5880      9000
-     DDoS-SYN_Flood     0.9977    0.9472    0.9718      9000
-     DDoS-TCP_Flood     0.9913    0.9718    0.9814      9000
-     DDoS-UDP_Flood     0.8954    0.7752    0.8310      9000
-      DoS-SYN_Flood     0.9952    0.9520    0.9731      9000
-      DoS-TCP_Flood     0.9725    0.9650    0.9687      9000
-      DoS-UDP_Flood     0.9832    0.8623    0.9188      9000
- Mirai-greeth_flood     0.6926    0.5349    0.6036      9000
-  Mirai-greip_flood     0.5866    0.6093    0.5978      9000
-     Mirai-udpplain     0.5256    0.5627    0.5435      9000
-Recon-HostDiscovery     0.7324    0.8420    0.7834      9000
-       Recon-OSScan     0.6158    0.5157    0.5613      9000
-     Recon-PortScan     0.6309    0.5496    0.5874      9000
+           Benign_Final     0.7147    0.8994    0.7965      9000
+ DDoS-ACK_Fragmentation     1.0000    1.0000    1.0000      9000
+        DDoS-HTTP_Flood     1.0000    1.0000    1.0000      9000
+        DDoS-ICMP_Flood     0.6172    0.6992    0.6557      9000
+DDoS-ICMP_Fragmentation     1.0000    1.0000    1.0000      9000
+      DDoS-PSHACK_Flood     0.9998    0.9969    0.9983      9000
+       DDoS-RSTFINFlood     1.0000    0.9952    0.9976      9000
+         DDoS-SYN_Flood     1.0000    0.9921    0.9960      9000
+         DDoS-SlowLoris     1.0000    1.0000    1.0000      9000
+DDoS-SynonymousIP_Flood     0.9991    0.9697    0.9842      9000
+         DDoS-TCP_Flood     0.9995    0.9843    0.9919      9000
+         DDoS-UDP_Flood     0.9305    0.7973    0.8588      9000
+ DDoS-UDP_Fragmentation     1.0000    1.0000    1.0000      9000
+         DoS-HTTP_Flood     0.9547    0.8970    0.9250      9000
+          DoS-SYN_Flood     0.9972    0.9604    0.9785      9000
+          DoS-TCP_Flood     0.9851    0.9704    0.9777      9000
+          DoS-UDP_Flood     0.9801    0.9078    0.9425      9000
+     Mirai-greeth_flood     0.7190    0.6264    0.6696      9000
+      Mirai-greip_flood     0.6466    0.6930    0.6690      9000
+         Mirai-udpplain     0.5582    0.6493    0.6003      9000
+    Recon-HostDiscovery     0.9702    0.9308    0.9501      9000
+           Recon-OSScan     0.8521    0.8177    0.8345      9000
+         Recon-PortScan     0.8632    0.8398    0.8513      9000
+      VulnerabilityScan     1.0000    1.0000    1.0000      9000
 
-           accuracy                         0.7565    126000
-          macro avg     0.7681    0.7565    0.7581    126000
-       weighted avg     0.7681    0.7565    0.7581    126000
+               accuracy                         0.9011    216000
+              macro avg     0.9078    0.9011    0.9032    216000
+           weighted avg     0.9078    0.9011    0.9032    216000

@@ -1,0 +1,8 @@
+group,cls_attention
+flow_volume,0.088240094
+tcp_flags,0.17303947
+fragmentation,0.04315521
+gre_header,0.1510559
+recon_cardinality,0.13052674
+temporal_splt,0.14503625
+global_context,0.2689464
