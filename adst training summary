@@ -1,0 +1,620 @@
+    step   50/493  loss=3.3544  acc=0.0606
+    step  100/493  loss=3.0892  acc=0.1219
+    step  150/493  loss=2.7158  acc=0.2215
+    step  200/493  loss=2.3643  acc=0.3147
+    step  250/493  loss=2.0959  acc=0.3830
+    step  300/493  loss=1.8971  acc=0.4331
+    step  350/493  loss=1.7443  acc=0.4720
+    step  400/493  loss=1.6224  acc=0.5035
+    step  450/493  loss=1.5237  acc=0.5292
+    [epoch end] steps=493/493  loss=1.4532  acc=0.5479
+Epoch   1/50  train_loss=1.4532  train_acc=0.5479  val_loss=0.6070  val_acc=0.7771  lr=5.00e-04  time=12s
+  -> Saved best model (val_acc=0.7771)
+    step   50/493  loss=0.6783  acc=0.7544
+    step  100/493  loss=0.6675  acc=0.7568
+    step  150/493  loss=0.6571  acc=0.7592
+    step  200/493  loss=0.6516  acc=0.7607
+    step  250/493  loss=0.6447  acc=0.7629
+    step  300/493  loss=0.6387  acc=0.7652
+    step  350/493  loss=0.6331  acc=0.7674
+    step  400/493  loss=0.6282  acc=0.7694
+    step  450/493  loss=0.6228  acc=0.7715
+    [epoch end] steps=493/493  loss=0.6187  acc=0.7731
+Epoch   2/50  train_loss=0.6187  train_acc=0.7731  val_loss=0.5305  val_acc=0.8043  lr=1.00e-03  time=12s
+  -> Saved best model (val_acc=0.8043)
+    step   50/493  loss=0.5698  acc=0.7902
+    step  100/493  loss=0.5675  acc=0.7923
+    step  150/493  loss=0.5637  acc=0.7938
+    step  200/493  loss=0.5614  acc=0.7945
+    step  250/493  loss=0.5588  acc=0.7957
+    step  300/493  loss=0.5565  acc=0.7964
+    step  350/493  loss=0.5551  acc=0.7970
+    step  400/493  loss=0.5534  acc=0.7975
+    step  450/493  loss=0.5514  acc=0.7982
+    [epoch end] steps=493/493  loss=0.5498  acc=0.7989
+Epoch   3/50  train_loss=0.5498  train_acc=0.7989  val_loss=0.5001  val_acc=0.8147  lr=9.99e-04  time=12s
+  -> Saved best model (val_acc=0.8147)
+    step   50/493  loss=0.5298  acc=0.8068
+    step  100/493  loss=0.5298  acc=0.8064
+    step  150/493  loss=0.5285  acc=0.8070
+    step  200/493  loss=0.5274  acc=0.8072
+    step  250/493  loss=0.5261  acc=0.8073
+    step  300/493  loss=0.5252  acc=0.8080
+    step  350/493  loss=0.5248  acc=0.8080
+    step  400/493  loss=0.5231  acc=0.8085
+    step  450/493  loss=0.5224  acc=0.8088
+    [epoch end] steps=493/493  loss=0.5217  acc=0.8091
+Epoch   4/50  train_loss=0.5217  train_acc=0.8091  val_loss=0.4833  val_acc=0.8208  lr=9.96e-04  time=13s
+  -> Saved best model (val_acc=0.8208)
+    step   50/493  loss=0.5078  acc=0.8141
+    step  100/493  loss=0.5089  acc=0.8131
+    step  150/493  loss=0.5084  acc=0.8136
+    step  200/493  loss=0.5079  acc=0.8141
+    step  250/493  loss=0.5069  acc=0.8143
+    step  300/493  loss=0.5066  acc=0.8142
+    step  350/493  loss=0.5058  acc=0.8145
+    step  400/493  loss=0.5057  acc=0.8146
+    step  450/493  loss=0.5050  acc=0.8150
+    [epoch end] steps=493/493  loss=0.5046  acc=0.8152
+Epoch   5/50  train_loss=0.5046  train_acc=0.8152  val_loss=0.4698  val_acc=0.8246  lr=9.90e-04  time=13s
+  -> Saved best model (val_acc=0.8246)
+    step   50/493  loss=0.4967  acc=0.8188
+    step  100/493  loss=0.4960  acc=0.8188
+    step  150/493  loss=0.4957  acc=0.8191
+    step  200/493  loss=0.4960  acc=0.8188
+    step  250/493  loss=0.4950  acc=0.8194
+    step  300/493  loss=0.4946  acc=0.8194
+    step  350/493  loss=0.4944  acc=0.8193
+    step  400/493  loss=0.4932  acc=0.8198
+    step  450/493  loss=0.4923  acc=0.8202
+    [epoch end] steps=493/493  loss=0.4921  acc=0.8203
+Epoch   6/50  train_loss=0.4921  train_acc=0.8203  val_loss=0.4584  val_acc=0.8297  lr=9.83e-04  time=13s
+  -> Saved best model (val_acc=0.8297)
+    step   50/493  loss=0.4886  acc=0.8220
+    step  100/493  loss=0.4885  acc=0.8210
+    step  150/493  loss=0.4862  acc=0.8221
+    step  200/493  loss=0.4836  acc=0.8230
+    step  250/493  loss=0.4843  acc=0.8229
+    step  300/493  loss=0.4845  acc=0.8228
+    step  350/493  loss=0.4842  acc=0.8229
+    step  400/493  loss=0.4837  acc=0.8231
+    step  450/493  loss=0.4832  acc=0.8231
+    [epoch end] steps=493/493  loss=0.4827  acc=0.8232
+Epoch   7/50  train_loss=0.4827  train_acc=0.8232  val_loss=0.4539  val_acc=0.8308  lr=9.74e-04  time=13s
+  -> Saved best model (val_acc=0.8308)
+    step   50/493  loss=0.4776  acc=0.8251
+    step  100/493  loss=0.4751  acc=0.8257
+    step  150/493  loss=0.4776  acc=0.8249
+    step  200/493  loss=0.4777  acc=0.8247
+    step  250/493  loss=0.4772  acc=0.8249
+    step  300/493  loss=0.4766  acc=0.8252
+    step  350/493  loss=0.4754  acc=0.8254
+    step  400/493  loss=0.4753  acc=0.8254
+    step  450/493  loss=0.4751  acc=0.8256
+    [epoch end] steps=493/493  loss=0.4751  acc=0.8255
+Epoch   8/50  train_loss=0.4751  train_acc=0.8255  val_loss=0.4474  val_acc=0.8326  lr=9.62e-04  time=13s
+  -> Saved best model (val_acc=0.8326)
+    step   50/493  loss=0.4698  acc=0.8277
+    step  100/493  loss=0.4705  acc=0.8269
+    step  150/493  loss=0.4711  acc=0.8264
+    step  200/493  loss=0.4699  acc=0.8267
+    step  250/493  loss=0.4700  acc=0.8267
+    step  300/493  loss=0.4694  acc=0.8269
+    step  350/493  loss=0.4694  acc=0.8272
+    step  400/493  loss=0.4692  acc=0.8273
+    step  450/493  loss=0.4695  acc=0.8272
+    [epoch end] steps=493/493  loss=0.4693  acc=0.8272
+Epoch   9/50  train_loss=0.4693  train_acc=0.8272  val_loss=0.4427  val_acc=0.8358  lr=9.49e-04  time=13s
+  -> Saved best model (val_acc=0.8358)
+    step   50/493  loss=0.4682  acc=0.8277
+    step  100/493  loss=0.4653  acc=0.8285
+    step  150/493  loss=0.4646  acc=0.8291
+    step  200/493  loss=0.4639  acc=0.8292
+    step  250/493  loss=0.4645  acc=0.8288
+    step  300/493  loss=0.4651  acc=0.8287
+    step  350/493  loss=0.4651  acc=0.8288
+    step  400/493  loss=0.4648  acc=0.8288
+    step  450/493  loss=0.4644  acc=0.8290
+    [epoch end] steps=493/493  loss=0.4644  acc=0.8290
+Epoch  10/50  train_loss=0.4644  train_acc=0.8290  val_loss=0.4368  val_acc=0.8385  lr=9.34e-04  time=12s
+  -> Saved best model (val_acc=0.8385)
+    step   50/493  loss=0.4643  acc=0.8285
+    step  100/493  loss=0.4600  acc=0.8308
+    step  150/493  loss=0.4601  acc=0.8306
+    step  200/493  loss=0.4604  acc=0.8304
+    step  250/493  loss=0.4602  acc=0.8303
+    step  300/493  loss=0.4608  acc=0.8303
+    step  350/493  loss=0.4604  acc=0.8305
+    step  400/493  loss=0.4605  acc=0.8304
+    step  450/493  loss=0.4602  acc=0.8306
+    [epoch end] steps=493/493  loss=0.4598  acc=0.8307
+Epoch  11/50  train_loss=0.4598  train_acc=0.8307  val_loss=0.4351  val_acc=0.8377  lr=9.17e-04  time=12s
+    step   50/493  loss=0.4596  acc=0.8310
+    step  100/493  loss=0.4584  acc=0.8312
+    step  150/493  loss=0.4588  acc=0.8311
+    step  200/493  loss=0.4588  acc=0.8310
+    step  250/493  loss=0.4575  acc=0.8315
+    step  300/493  loss=0.4577  acc=0.8315
+    step  350/493  loss=0.4566  acc=0.8318
+    step  400/493  loss=0.4564  acc=0.8318
+    step  450/493  loss=0.4561  acc=0.8320
+    [epoch end] steps=493/493  loss=0.4560  acc=0.8319
+Epoch  12/50  train_loss=0.4560  train_acc=0.8319  val_loss=0.4317  val_acc=0.8389  lr=8.98e-04  time=12s
+  -> Saved best model (val_acc=0.8389)
+    step   50/493  loss=0.4571  acc=0.8313
+    step  100/493  loss=0.4557  acc=0.8320
+    step  150/493  loss=0.4541  acc=0.8327
+    step  200/493  loss=0.4529  acc=0.8330
+    step  250/493  loss=0.4531  acc=0.8330
+    step  300/493  loss=0.4527  acc=0.8332
+    step  350/493  loss=0.4524  acc=0.8333
+    step  400/493  loss=0.4526  acc=0.8332
+    step  450/493  loss=0.4525  acc=0.8332
+    [epoch end] steps=493/493  loss=0.4525  acc=0.8331
+Epoch  13/50  train_loss=0.4525  train_acc=0.8331  val_loss=0.4278  val_acc=0.8410  lr=8.77e-04  time=12s
+  -> Saved best model (val_acc=0.8410)
+    step   50/493  loss=0.4487  acc=0.8338
+    step  100/493  loss=0.4506  acc=0.8337
+    step  150/493  loss=0.4497  acc=0.8340
+    step  200/493  loss=0.4497  acc=0.8341
+    step  250/493  loss=0.4497  acc=0.8341
+    step  300/493  loss=0.4499  acc=0.8339
+    step  350/493  loss=0.4497  acc=0.8339
+    step  400/493  loss=0.4494  acc=0.8340
+    step  450/493  loss=0.4492  acc=0.8341
+    [epoch end] steps=493/493  loss=0.4491  acc=0.8341
+Epoch  14/50  train_loss=0.4491  train_acc=0.8341  val_loss=0.4235  val_acc=0.8425  lr=8.55e-04  time=12s
+  -> Saved best model (val_acc=0.8425)
+    step   50/493  loss=0.4465  acc=0.8354
+    step  100/493  loss=0.4450  acc=0.8355
+    step  150/493  loss=0.4462  acc=0.8349
+    step  200/493  loss=0.4468  acc=0.8346
+    step  250/493  loss=0.4472  acc=0.8346
+    step  300/493  loss=0.4471  acc=0.8347
+    step  350/493  loss=0.4476  acc=0.8345
+    step  400/493  loss=0.4464  acc=0.8349
+    step  450/493  loss=0.4459  acc=0.8352
+    [epoch end] steps=493/493  loss=0.4459  acc=0.8352
+Epoch  15/50  train_loss=0.4459  train_acc=0.8352  val_loss=0.4206  val_acc=0.8444  lr=8.31e-04  time=12s
+  -> Saved best model (val_acc=0.8444)
+    step   50/493  loss=0.4424  acc=0.8379
+    step  100/493  loss=0.4441  acc=0.8368
+    step  150/493  loss=0.4448  acc=0.8365
+    step  200/493  loss=0.4448  acc=0.8365
+    step  250/493  loss=0.4447  acc=0.8365
+    step  300/493  loss=0.4449  acc=0.8362
+    step  350/493  loss=0.4435  acc=0.8366
+    step  400/493  loss=0.4433  acc=0.8365
+    step  450/493  loss=0.4427  acc=0.8367
+    [epoch end] steps=493/493  loss=0.4430  acc=0.8365
+Epoch  16/50  train_loss=0.4430  train_acc=0.8365  val_loss=0.4179  val_acc=0.8438  lr=8.06e-04  time=12s
+    step   50/493  loss=0.4396  acc=0.8368
+    step  100/493  loss=0.4391  acc=0.8375
+    step  150/493  loss=0.4398  acc=0.8370
+    step  200/493  loss=0.4404  acc=0.8368
+    step  250/493  loss=0.4403  acc=0.8369
+    step  300/493  loss=0.4396  acc=0.8372
+    step  350/493  loss=0.4394  acc=0.8372
+    step  400/493  loss=0.4395  acc=0.8371
+    step  450/493  loss=0.4395  acc=0.8371
+    [epoch end] steps=493/493  loss=0.4399  acc=0.8369
+Epoch  17/50  train_loss=0.4399  train_acc=0.8369  val_loss=0.4165  val_acc=0.8444  lr=7.80e-04  time=12s
+  -> Saved best model (val_acc=0.8444)
+    step   50/493  loss=0.4363  acc=0.8387
+    step  100/493  loss=0.4383  acc=0.8377
+    step  150/493  loss=0.4381  acc=0.8374
+    step  200/493  loss=0.4376  acc=0.8378
+    step  250/493  loss=0.4378  acc=0.8376
+    step  300/493  loss=0.4373  acc=0.8378
+    step  350/493  loss=0.4375  acc=0.8379
+    step  400/493  loss=0.4364  acc=0.8383
+    step  450/493  loss=0.4365  acc=0.8381
+    [epoch end] steps=493/493  loss=0.4365  acc=0.8383
+Epoch  18/50  train_loss=0.4365  train_acc=0.8383  val_loss=0.4119  val_acc=0.8467  lr=7.52e-04  time=12s
+  -> Saved best model (val_acc=0.8467)
+    step   50/493  loss=0.4325  acc=0.8384
+    step  100/493  loss=0.4328  acc=0.8380
+    step  150/493  loss=0.4330  acc=0.8386
+    step  200/493  loss=0.4333  acc=0.8390
+    step  250/493  loss=0.4343  acc=0.8388
+    step  300/493  loss=0.4344  acc=0.8389
+    step  350/493  loss=0.4338  acc=0.8393
+    step  400/493  loss=0.4336  acc=0.8393
+    step  450/493  loss=0.4341  acc=0.8391
+    [epoch end] steps=493/493  loss=0.4343  acc=0.8391
+Epoch  19/50  train_loss=0.4343  train_acc=0.8391  val_loss=0.4096  val_acc=0.8479  lr=7.24e-04  time=12s
+  -> Saved best model (val_acc=0.8479)
+    step   50/493  loss=0.4338  acc=0.8398
+    step  100/493  loss=0.4314  acc=0.8404
+    step  150/493  loss=0.4315  acc=0.8405
+    step  200/493  loss=0.4319  acc=0.8407
+    step  250/493  loss=0.4328  acc=0.8403
+    step  300/493  loss=0.4318  acc=0.8407
+    step  350/493  loss=0.4317  acc=0.8408
+    step  400/493  loss=0.4314  acc=0.8407
+    step  450/493  loss=0.4313  acc=0.8407
+    [epoch end] steps=493/493  loss=0.4315  acc=0.8405
+Epoch  20/50  train_loss=0.4315  train_acc=0.8405  val_loss=0.4051  val_acc=0.8498  lr=6.94e-04  time=12s
+  -> Saved best model (val_acc=0.8498)
+    step   50/493  loss=0.4314  acc=0.8406
+    step  100/493  loss=0.4317  acc=0.8408
+    step  150/493  loss=0.4301  acc=0.8412
+    step  200/493  loss=0.4297  acc=0.8414
+    step  250/493  loss=0.4294  acc=0.8412
+    step  300/493  loss=0.4289  acc=0.8413
+    step  350/493  loss=0.4290  acc=0.8414
+    step  400/493  loss=0.4290  acc=0.8414
+    step  450/493  loss=0.4291  acc=0.8413
+    [epoch end] steps=493/493  loss=0.4290  acc=0.8413
+Epoch  21/50  train_loss=0.4290  train_acc=0.8413  val_loss=0.4036  val_acc=0.8501  lr=6.64e-04  time=12s
+  -> Saved best model (val_acc=0.8501)
+    step   50/493  loss=0.4283  acc=0.8417
+    step  100/493  loss=0.4297  acc=0.8410
+    step  150/493  loss=0.4284  acc=0.8414
+    step  200/493  loss=0.4275  acc=0.8417
+    step  250/493  loss=0.4272  acc=0.8419
+    step  300/493  loss=0.4270  acc=0.8419
+    step  350/493  loss=0.4266  acc=0.8420
+    step  400/493  loss=0.4265  acc=0.8422
+    step  450/493  loss=0.4264  acc=0.8423
+    [epoch end] steps=493/493  loss=0.4264  acc=0.8423
+Epoch  22/50  train_loss=0.4264  train_acc=0.8423  val_loss=0.4022  val_acc=0.8515  lr=6.33e-04  time=12s
+  -> Saved best model (val_acc=0.8515)
+    step   50/493  loss=0.4307  acc=0.8404
+    step  100/493  loss=0.4261  acc=0.8423
+    step  150/493  loss=0.4240  acc=0.8427
+    step  200/493  loss=0.4240  acc=0.8430
+    step  250/493  loss=0.4234  acc=0.8432
+    step  300/493  loss=0.4242  acc=0.8429
+    step  350/493  loss=0.4242  acc=0.8428
+    step  400/493  loss=0.4236  acc=0.8431
+    step  450/493  loss=0.4233  acc=0.8432
+    [epoch end] steps=493/493  loss=0.4235  acc=0.8432
+Epoch  23/50  train_loss=0.4235  train_acc=0.8432  val_loss=0.4024  val_acc=0.8498  lr=6.02e-04  time=12s
+    step   50/493  loss=0.4259  acc=0.8413
+    step  100/493  loss=0.4233  acc=0.8431
+    step  150/493  loss=0.4233  acc=0.8432
+    step  200/493  loss=0.4231  acc=0.8433
+    step  250/493  loss=0.4230  acc=0.8434
+    step  300/493  loss=0.4226  acc=0.8435
+    step  350/493  loss=0.4225  acc=0.8434
+    step  400/493  loss=0.4222  acc=0.8434
+    step  450/493  loss=0.4221  acc=0.8434
+    [epoch end] steps=493/493  loss=0.4217  acc=0.8435
+Epoch  24/50  train_loss=0.4217  train_acc=0.8435  val_loss=0.3958  val_acc=0.8520  lr=5.70e-04  time=12s
+  -> Saved best model (val_acc=0.8520)
+    step   50/493  loss=0.4188  acc=0.8447
+    step  100/493  loss=0.4208  acc=0.8440
+    step  150/493  loss=0.4210  acc=0.8441
+    step  200/493  loss=0.4205  acc=0.8442
+    step  250/493  loss=0.4205  acc=0.8441
+    step  300/493  loss=0.4205  acc=0.8443
+    step  350/493  loss=0.4205  acc=0.8441
+    step  400/493  loss=0.4205  acc=0.8442
+    step  450/493  loss=0.4198  acc=0.8444
+    [epoch end] steps=493/493  loss=0.4192  acc=0.8445
+Epoch  25/50  train_loss=0.4192  train_acc=0.8445  val_loss=0.3956  val_acc=0.8527  lr=5.37e-04  time=12s
+  -> Saved best model (val_acc=0.8527)
+    step   50/493  loss=0.4177  acc=0.8475
+    step  100/493  loss=0.4176  acc=0.8462
+    step  150/493  loss=0.4172  acc=0.8462
+    step  200/493  loss=0.4182  acc=0.8456
+    step  250/493  loss=0.4183  acc=0.8453
+    step  300/493  loss=0.4183  acc=0.8452
+    step  350/493  loss=0.4181  acc=0.8451
+    step  400/493  loss=0.4178  acc=0.8452
+    step  450/493  loss=0.4179  acc=0.8451
+    [epoch end] steps=493/493  loss=0.4176  acc=0.8453
+Epoch  26/50  train_loss=0.4176  train_acc=0.8453  val_loss=0.3940  val_acc=0.8535  lr=5.05e-04  time=12s
+  -> Saved best model (val_acc=0.8535)
+    step   50/493  loss=0.4165  acc=0.8456
+    step  100/493  loss=0.4164  acc=0.8449
+    step  150/493  loss=0.4162  acc=0.8451
+    step  200/493  loss=0.4161  acc=0.8453
+    step  250/493  loss=0.4156  acc=0.8455
+    step  300/493  loss=0.4155  acc=0.8454
+    step  350/493  loss=0.4151  acc=0.8457
+    step  400/493  loss=0.4159  acc=0.8455
+    step  450/493  loss=0.4161  acc=0.8453
+    [epoch end] steps=493/493  loss=0.4161  acc=0.8453
+Epoch  27/50  train_loss=0.4161  train_acc=0.8453  val_loss=0.3906  val_acc=0.8542  lr=4.73e-04  time=12s
+  -> Saved best model (val_acc=0.8542)
+    step   50/493  loss=0.4141  acc=0.8464
+    step  100/493  loss=0.4130  acc=0.8472
+    step  150/493  loss=0.4136  acc=0.8465
+    step  200/493  loss=0.4143  acc=0.8463
+    step  250/493  loss=0.4145  acc=0.8463
+    step  300/493  loss=0.4140  acc=0.8466
+    step  350/493  loss=0.4139  acc=0.8467
+    step  400/493  loss=0.4136  acc=0.8467
+    step  450/493  loss=0.4139  acc=0.8466
+    [epoch end] steps=493/493  loss=0.4140  acc=0.8466
+Epoch  28/50  train_loss=0.4140  train_acc=0.8466  val_loss=0.3922  val_acc=0.8534  lr=4.40e-04  time=12s
+    step   50/493  loss=0.4159  acc=0.8452
+    step  100/493  loss=0.4136  acc=0.8461
+    step  150/493  loss=0.4131  acc=0.8465
+    step  200/493  loss=0.4137  acc=0.8462
+    step  250/493  loss=0.4134  acc=0.8464
+    step  300/493  loss=0.4130  acc=0.8464
+    step  350/493  loss=0.4129  acc=0.8465
+    step  400/493  loss=0.4129  acc=0.8465
+    step  450/493  loss=0.4128  acc=0.8466
+    [epoch end] steps=493/493  loss=0.4124  acc=0.8468
+Epoch  29/50  train_loss=0.4124  train_acc=0.8468  val_loss=0.3859  val_acc=0.8559  lr=4.08e-04  time=12s
+  -> Saved best model (val_acc=0.8559)
+    step   50/493  loss=0.4101  acc=0.8477
+    step  100/493  loss=0.4074  acc=0.8489
+    step  150/493  loss=0.4083  acc=0.8483
+    step  200/493  loss=0.4102  acc=0.8477
+    step  250/493  loss=0.4106  acc=0.8476
+    step  300/493  loss=0.4110  acc=0.8474
+    step  350/493  loss=0.4103  acc=0.8475
+    step  400/493  loss=0.4102  acc=0.8475
+    step  450/493  loss=0.4100  acc=0.8473
+    [epoch end] steps=493/493  loss=0.4104  acc=0.8471
+Epoch  30/50  train_loss=0.4104  train_acc=0.8471  val_loss=0.3853  val_acc=0.8555  lr=3.77e-04  time=12s
+    step   50/493  loss=0.4093  acc=0.8471
+    step  100/493  loss=0.4105  acc=0.8475
+    step  150/493  loss=0.4101  acc=0.8476
+    step  200/493  loss=0.4095  acc=0.8479
+    step  250/493  loss=0.4093  acc=0.8480
+    step  300/493  loss=0.4092  acc=0.8481
+    step  350/493  loss=0.4090  acc=0.8482
+    step  400/493  loss=0.4090  acc=0.8482
+    step  450/493  loss=0.4091  acc=0.8481
+    [epoch end] steps=493/493  loss=0.4094  acc=0.8480
+Epoch  31/50  train_loss=0.4094  train_acc=0.8480  val_loss=0.3832  val_acc=0.8571  lr=3.46e-04  time=12s
+  -> Saved best model (val_acc=0.8571)
+    step   50/493  loss=0.4031  acc=0.8496
+    step  100/493  loss=0.4082  acc=0.8483
+    step  150/493  loss=0.4073  acc=0.8487
+    step  200/493  loss=0.4083  acc=0.8484
+    step  250/493  loss=0.4078  acc=0.8485
+    step  300/493  loss=0.4076  acc=0.8484
+    step  350/493  loss=0.4075  acc=0.8486
+    step  400/493  loss=0.4074  acc=0.8486
+    step  450/493  loss=0.4075  acc=0.8487
+    [epoch end] steps=493/493  loss=0.4072  acc=0.8487
+Epoch  32/50  train_loss=0.4072  train_acc=0.8487  val_loss=0.3883  val_acc=0.8534  lr=3.16e-04  time=12s
+    step   50/493  loss=0.4093  acc=0.8479
+    step  100/493  loss=0.4086  acc=0.8480
+    step  150/493  loss=0.4079  acc=0.8485
+    step  200/493  loss=0.4071  acc=0.8491
+    step  250/493  loss=0.4068  acc=0.8492
+    step  300/493  loss=0.4065  acc=0.8492
+    step  350/493  loss=0.4060  acc=0.8492
+    step  400/493  loss=0.4060  acc=0.8492
+    step  450/493  loss=0.4056  acc=0.8493
+    [epoch end] steps=493/493  loss=0.4053  acc=0.8494
+Epoch  33/50  train_loss=0.4053  train_acc=0.8494  val_loss=0.3796  val_acc=0.8579  lr=2.86e-04  time=12s
+  -> Saved best model (val_acc=0.8579)
+    step   50/493  loss=0.4020  acc=0.8513
+    step  100/493  loss=0.4033  acc=0.8504
+    step  150/493  loss=0.4027  acc=0.8507
+    step  200/493  loss=0.4045  acc=0.8501
+    step  250/493  loss=0.4039  acc=0.8501
+    step  300/493  loss=0.4030  acc=0.8503
+    step  350/493  loss=0.4031  acc=0.8503
+    step  400/493  loss=0.4025  acc=0.8507
+    step  450/493  loss=0.4029  acc=0.8506
+    [epoch end] steps=493/493  loss=0.4028  acc=0.8506
+Epoch  34/50  train_loss=0.4028  train_acc=0.8506  val_loss=0.3770  val_acc=0.8583  lr=2.58e-04  time=12s
+  -> Saved best model (val_acc=0.8583)
+    step   50/493  loss=0.3999  acc=0.8499
+    step  100/493  loss=0.4008  acc=0.8504
+    step  150/493  loss=0.3999  acc=0.8512
+    step  200/493  loss=0.4010  acc=0.8511
+    step  250/493  loss=0.4002  acc=0.8515
+    step  300/493  loss=0.4006  acc=0.8514
+    step  350/493  loss=0.4012  acc=0.8514
+    step  400/493  loss=0.4011  acc=0.8512
+    step  450/493  loss=0.4012  acc=0.8513
+    [epoch end] steps=493/493  loss=0.4013  acc=0.8511
+Epoch  35/50  train_loss=0.4013  train_acc=0.8511  val_loss=0.3764  val_acc=0.8589  lr=2.30e-04  time=12s
+  -> Saved best model (val_acc=0.8589)
+    step   50/493  loss=0.4032  acc=0.8502
+    step  100/493  loss=0.4029  acc=0.8496
+    step  150/493  loss=0.4018  acc=0.8502
+    step  200/493  loss=0.4002  acc=0.8509
+    step  250/493  loss=0.4001  acc=0.8508
+    step  300/493  loss=0.3997  acc=0.8509
+    step  350/493  loss=0.4000  acc=0.8509
+    step  400/493  loss=0.3997  acc=0.8512
+    step  450/493  loss=0.3997  acc=0.8512
+    [epoch end] steps=493/493  loss=0.4000  acc=0.8510
+Epoch  36/50  train_loss=0.4000  train_acc=0.8510  val_loss=0.3771  val_acc=0.8589  lr=2.04e-04  time=12s
+  -> Saved best model (val_acc=0.8589)
+    step   50/493  loss=0.3998  acc=0.8508
+    step  100/493  loss=0.3977  acc=0.8518
+    step  150/493  loss=0.3996  acc=0.8512
+    step  200/493  loss=0.3993  acc=0.8513
+    step  250/493  loss=0.3991  acc=0.8516
+    step  300/493  loss=0.3984  acc=0.8519
+    step  350/493  loss=0.3986  acc=0.8519
+    step  400/493  loss=0.3984  acc=0.8519
+    step  450/493  loss=0.3985  acc=0.8520
+    [epoch end] steps=493/493  loss=0.3987  acc=0.8517
+Epoch  37/50  train_loss=0.3987  train_acc=0.8517  val_loss=0.3757  val_acc=0.8593  lr=1.79e-04  time=12s
+  -> Saved best model (val_acc=0.8593)
+    step   50/493  loss=0.3971  acc=0.8525
+    step  100/493  loss=0.3975  acc=0.8526
+    step  150/493  loss=0.3975  acc=0.8527
+    step  200/493  loss=0.3971  acc=0.8529
+    step  250/493  loss=0.3980  acc=0.8525
+    step  300/493  loss=0.3984  acc=0.8522
+    step  350/493  loss=0.3982  acc=0.8522
+    step  400/493  loss=0.3981  acc=0.8522
+    step  450/493  loss=0.3980  acc=0.8521
+    [epoch end] steps=493/493  loss=0.3977  acc=0.8524
+Epoch  38/50  train_loss=0.3977  train_acc=0.8524  val_loss=0.3743  val_acc=0.8598  lr=1.55e-04  time=12s
+  -> Saved best model (val_acc=0.8598)
+    step   50/493  loss=0.4012  acc=0.8519
+    step  100/493  loss=0.3996  acc=0.8514
+    step  150/493  loss=0.3968  acc=0.8519
+    step  200/493  loss=0.3969  acc=0.8517
+    step  250/493  loss=0.3974  acc=0.8518
+    step  300/493  loss=0.3975  acc=0.8519
+    step  350/493  loss=0.3976  acc=0.8519
+    step  400/493  loss=0.3972  acc=0.8520
+    step  450/493  loss=0.3973  acc=0.8519
+    [epoch end] steps=493/493  loss=0.3970  acc=0.8521
+Epoch  39/50  train_loss=0.3970  train_acc=0.8521  val_loss=0.3739  val_acc=0.8600  lr=1.33e-04  time=12s
+  -> Saved best model (val_acc=0.8600)
+    step   50/493  loss=0.3961  acc=0.8529
+    step  100/493  loss=0.3949  acc=0.8531
+    step  150/493  loss=0.3955  acc=0.8529
+    step  200/493  loss=0.3949  acc=0.8530
+    step  250/493  loss=0.3957  acc=0.8528
+    step  300/493  loss=0.3951  acc=0.8530
+    step  350/493  loss=0.3956  acc=0.8527
+    step  400/493  loss=0.3959  acc=0.8526
+    step  450/493  loss=0.3962  acc=0.8526
+    [epoch end] steps=493/493  loss=0.3964  acc=0.8526
+Epoch  40/50  train_loss=0.3964  train_acc=0.8526  val_loss=0.3741  val_acc=0.8593  lr=1.12e-04  time=12s
+    step   50/493  loss=0.4004  acc=0.8513
+    step  100/493  loss=0.3975  acc=0.8523
+    step  150/493  loss=0.3962  acc=0.8526
+    step  200/493  loss=0.3951  acc=0.8533
+    step  250/493  loss=0.3960  acc=0.8531
+    step  300/493  loss=0.3959  acc=0.8531
+    step  350/493  loss=0.3957  acc=0.8529
+    step  400/493  loss=0.3955  acc=0.8530
+    step  450/493  loss=0.3955  acc=0.8531
+    [epoch end] steps=493/493  loss=0.3959  acc=0.8529
+Epoch  41/50  train_loss=0.3959  train_acc=0.8529  val_loss=0.3728  val_acc=0.8602  lr=9.34e-05  time=12s
+  -> Saved best model (val_acc=0.8602)
+    step   50/493  loss=0.3935  acc=0.8542
+    step  100/493  loss=0.3933  acc=0.8536
+    step  150/493  loss=0.3933  acc=0.8532
+    step  200/493  loss=0.3929  acc=0.8535
+    step  250/493  loss=0.3938  acc=0.8534
+    step  300/493  loss=0.3935  acc=0.8536
+    step  350/493  loss=0.3939  acc=0.8535
+    step  400/493  loss=0.3942  acc=0.8533
+    step  450/493  loss=0.3944  acc=0.8533
+    [epoch end] steps=493/493  loss=0.3951  acc=0.8530
+Epoch  42/50  train_loss=0.3951  train_acc=0.8530  val_loss=0.3727  val_acc=0.8601  lr=7.63e-05  time=12s
+    step   50/493  loss=0.3945  acc=0.8532
+    step  100/493  loss=0.3946  acc=0.8528
+    step  150/493  loss=0.3939  acc=0.8532
+    step  200/493  loss=0.3944  acc=0.8531
+    step  250/493  loss=0.3942  acc=0.8533
+    step  300/493  loss=0.3942  acc=0.8533
+    step  350/493  loss=0.3945  acc=0.8533
+    step  400/493  loss=0.3945  acc=0.8534
+    step  450/493  loss=0.3942  acc=0.8534
+    [epoch end] steps=493/493  loss=0.3943  acc=0.8534
+Epoch  43/50  train_loss=0.3943  train_acc=0.8534  val_loss=0.3721  val_acc=0.8608  lr=6.10e-05  time=12s
+  -> Saved best model (val_acc=0.8608)
+    step   50/493  loss=0.3919  acc=0.8533
+    step  100/493  loss=0.3909  acc=0.8537
+    step  150/493  loss=0.3917  acc=0.8538
+    step  200/493  loss=0.3922  acc=0.8538
+    step  250/493  loss=0.3934  acc=0.8534
+    step  300/493  loss=0.3940  acc=0.8532
+    step  350/493  loss=0.3939  acc=0.8532
+    step  400/493  loss=0.3940  acc=0.8532
+    step  450/493  loss=0.3943  acc=0.8532
+    [epoch end] steps=493/493  loss=0.3945  acc=0.8533
+Epoch  44/50  train_loss=0.3945  train_acc=0.8533  val_loss=0.3713  val_acc=0.8610  lr=4.77e-05  time=12s
+  -> Saved best model (val_acc=0.8610)
+    step   50/493  loss=0.3918  acc=0.8541
+    step  100/493  loss=0.3908  acc=0.8547
+    step  150/493  loss=0.3912  acc=0.8543
+    step  200/493  loss=0.3921  acc=0.8540
+    step  250/493  loss=0.3927  acc=0.8536
+    step  300/493  loss=0.3927  acc=0.8539
+    step  350/493  loss=0.3931  acc=0.8537
+    step  400/493  loss=0.3933  acc=0.8538
+    step  450/493  loss=0.3934  acc=0.8536
+    [epoch end] steps=493/493  loss=0.3936  acc=0.8536
+Epoch  45/50  train_loss=0.3936  train_acc=0.8536  val_loss=0.3713  val_acc=0.8611  lr=3.63e-05  time=12s
+  -> Saved best model (val_acc=0.8611)
+    step   50/493  loss=0.3877  acc=0.8560
+    step  100/493  loss=0.3879  acc=0.8558
+    step  150/493  loss=0.3896  acc=0.8553
+    step  200/493  loss=0.3903  acc=0.8550
+    step  250/493  loss=0.3917  acc=0.8545
+    step  300/493  loss=0.3922  acc=0.8544
+    step  350/493  loss=0.3933  acc=0.8541
+    step  400/493  loss=0.3939  acc=0.8539
+    step  450/493  loss=0.3931  acc=0.8541
+    [epoch end] steps=493/493  loss=0.3933  acc=0.8540
+Epoch  46/50  train_loss=0.3933  train_acc=0.8540  val_loss=0.3712  val_acc=0.8611  lr=2.69e-05  time=12s
+    step   50/493  loss=0.3908  acc=0.8547
+    step  100/493  loss=0.3923  acc=0.8540
+    step  150/493  loss=0.3917  acc=0.8543
+    step  200/493  loss=0.3911  acc=0.8545
+    step  250/493  loss=0.3922  acc=0.8538
+    step  300/493  loss=0.3930  acc=0.8536
+    step  350/493  loss=0.3931  acc=0.8537
+    step  400/493  loss=0.3932  acc=0.8537
+    step  450/493  loss=0.3931  acc=0.8536
+    [epoch end] steps=493/493  loss=0.3932  acc=0.8535
+Epoch  47/50  train_loss=0.3932  train_acc=0.8535  val_loss=0.3711  val_acc=0.8612  lr=1.95e-05  time=12s
+  -> Saved best model (val_acc=0.8612)
+    step   50/493  loss=0.3937  acc=0.8532
+    step  100/493  loss=0.3912  acc=0.8538
+    step  150/493  loss=0.3933  acc=0.8534
+    step  200/493  loss=0.3921  acc=0.8541
+    step  250/493  loss=0.3929  acc=0.8539
+    step  300/493  loss=0.3932  acc=0.8538
+    step  350/493  loss=0.3928  acc=0.8539
+    step  400/493  loss=0.3931  acc=0.8539
+    step  450/493  loss=0.3934  acc=0.8537
+    [epoch end] steps=493/493  loss=0.3931  acc=0.8538
+Epoch  48/50  train_loss=0.3931  train_acc=0.8538  val_loss=0.3714  val_acc=0.8605  lr=1.42e-05  time=12s
+    step   50/493  loss=0.3925  acc=0.8543
+    step  100/493  loss=0.3926  acc=0.8538
+    step  150/493  loss=0.3930  acc=0.8536
+    step  200/493  loss=0.3923  acc=0.8538
+    step  250/493  loss=0.3929  acc=0.8539
+    step  300/493  loss=0.3940  acc=0.8537
+    step  350/493  loss=0.3931  acc=0.8541
+    step  400/493  loss=0.3935  acc=0.8538
+    step  450/493  loss=0.3933  acc=0.8538
+    [epoch end] steps=493/493  loss=0.3929  acc=0.8539
+Epoch  49/50  train_loss=0.3929  train_acc=0.8539  val_loss=0.3707  val_acc=0.8613  lr=1.11e-05  time=12s
+  -> Saved best model (val_acc=0.8613)
+    step   50/493  loss=0.3939  acc=0.8529
+    step  100/493  loss=0.3929  acc=0.8535
+    step  150/493  loss=0.3927  acc=0.8540
+    step  200/493  loss=0.3922  acc=0.8542
+    step  250/493  loss=0.3920  acc=0.8540
+    step  300/493  loss=0.3921  acc=0.8541
+    step  350/493  loss=0.3922  acc=0.8539
+    step  400/493  loss=0.3922  acc=0.8539
+    step  450/493  loss=0.3924  acc=0.8538
+    [epoch end] steps=493/493  loss=0.3926  acc=0.8538
+Epoch  50/50  train_loss=0.3926  train_acc=0.8538  val_loss=0.3706  val_acc=0.8613  lr=1.00e-05  time=12s
+  -> Saved best model (val_acc=0.8613)
+Loaded best model: epoch 50 (val_acc=0.8613)
+Seed 2024 TEST ACCURACY: 0.8601 (86.01%)
+
+======================================================================
+MULTI-SEED SUMMARY — ADST v2
+(fragmentation hidden_dim override = 64)
+======================================================================
+  seed=42     test_acc=86.03%  macro_f1=0.8638  params=140,448
+  seed=123    test_acc=85.68%  macro_f1=0.8603  params=140,448
+  seed=2024   test_acc=86.01%  macro_f1=0.8634  params=140,448
+
+  Mean test_acc : 85.91%  (+/- 0.16 pp std)
+  Mean macro_f1 : 0.8625  (+/- 0.0016 std)
+  Parameters    : 140,448 (identical across seeds — architecture unchanged)
+
+  Mean group attention across seeds:
+    global_context       0.2335 (+/- 0.0366)
+    temporal_splt        0.1808 (+/- 0.0335)
+    recon_cardinality    0.1705 (+/- 0.0228)
+    tcp_flags            0.1435 (+/- 0.0078)
+    flow_volume          0.1333 (+/- 0.0280)
+    gre_header           0.0965 (+/- 0.0164)
+    fragmentation        0.0418 (+/- 0.0085)
+
+Saved -> adst_v2_multiseed_summary.json
+
+Compare this mean +/- std directly against the FT-Transformer
+multi-seed summary. Also compare fragmentation's mean attention
+here against v1's 0.0374 to see if the capacity bump changed it.
+
